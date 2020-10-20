@@ -29,5 +29,9 @@ namespace LogicaBI
         {
             obj.Borrar(id);
         }
+        public List<Modelo.Autor> TraerTodos(string Letras)
+        {
+           return obj.TraerTodos(Letras);
+        }
     }
 }

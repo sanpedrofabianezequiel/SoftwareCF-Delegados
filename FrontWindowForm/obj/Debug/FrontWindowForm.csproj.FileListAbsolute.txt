@@ -20,3 +20,5 @@ C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\obj\Debug\Front
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\obj\Debug\FrontWindowForm.csproj.CopyComplete
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\obj\Debug\FrontWindowForm.exe
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\obj\Debug\FrontWindowForm.pdb
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\bin\Debug\EntityFramework.SqlServer.xml
