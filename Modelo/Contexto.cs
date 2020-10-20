@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    class Contexto
+    class Contexto:DbContext
     {
     }
 }
