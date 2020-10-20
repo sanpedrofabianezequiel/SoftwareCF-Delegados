@@ -11,13 +11,12 @@ namespace ConsolaCodeFirst
         static void Main(string[] args)
         {
             
-             Modelo.Contexto db= new Modelo.Contexto();
-             Modelo.Autor objAutor= new Modelo.Autor();
-
+            
+            Modelo.Autor objAutor= new Modelo.Autor();//Modelo conceptual
+            LogicaBI.Autor obj = new LogicaBI.Autor();//BI
                 objAutor.Apellido= "San Pedro";
                 objAutor.Nombre = "Ezequiel";
-                    db.Autores.Add(objAutor);
-                    db.SaveChanges();
+                     obj.Agregar(objAutor); //Le enviamos la data a LOGICA
                         Console.WriteLine("Autor ingresado en la Base de Datos con Exito");
              
                             

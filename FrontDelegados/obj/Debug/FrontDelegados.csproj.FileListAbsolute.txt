@@ -1,0 +1,6 @@
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\bin\Debug\FrontDelegados.exe.config
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\bin\Debug\FrontDelegados.exe
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\bin\Debug\FrontDelegados.pdb
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\obj\Debug\FrontDelegados.csproj.CoreCompileInputs.cache
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\obj\Debug\FrontDelegados.exe
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\obj\Debug\FrontDelegados.pdb
