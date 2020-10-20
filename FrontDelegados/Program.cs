@@ -53,6 +53,7 @@ namespace FrontDelegados
             Operacion MyFuncion5 = (a, b) => (a + b);
             double resultado4 = MyFuncion5(num1, num2);
 
+            //--------------------------------------
 
 
             Console.ReadKey();

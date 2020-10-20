@@ -8,13 +8,26 @@ namespace LogicaBI
 {
     public class Autor
     {
+        Datos.Autor obj = new Datos.Autor();
         public void Agregar(Modelo.Autor autor)
         {
             //Validaciones de negocio
             //la logica le pega a los datos
-            Datos.Autor obj = new Datos.Autor();
+            
             obj.Agregar(autor);
 
+        }
+        public void Modificar(Modelo.Autor autor)
+        {
+            obj.Modificar(autor);
+        }
+        public List<Modelo.Autor> TraerTodos()
+        {
+            return obj.TraerTodos();
+        }
+        public void Borrar(int id)
+        {
+            obj.Borrar(id);
         }
     }
 }
