@@ -10,7 +10,7 @@ namespace ConsolaCodeFirst
     {
         static void Main(string[] args)
         {
-            /*
+            
              Modelo.Contexto db= new Modelo.Contexto();
              Modelo.Autor objAutor= new Modelo.Autor();
 
@@ -22,7 +22,7 @@ namespace ConsolaCodeFirst
              
                             
              Console.ReadKey();
-             */
+             
             
 
         }

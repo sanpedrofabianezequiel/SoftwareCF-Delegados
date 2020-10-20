@@ -1,0 +1,15 @@
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\ConsolaCodeFirst.exe.config
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\ConsolaCodeFirst.exe
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\ConsolaCodeFirst.pdb
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\Modelo.dll
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\Modelo.pdb
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\Modelo.dll.config
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\obj\Debug\ConsolaCodeFirst.csprojAssemblyReference.cache
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\obj\Debug\ConsolaCodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\obj\Debug\ConsolaCodeFirst.csproj.CopyComplete
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\obj\Debug\ConsolaCodeFirst.exe
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\ConsolaCodeFirst\obj\Debug\ConsolaCodeFirst.pdb
