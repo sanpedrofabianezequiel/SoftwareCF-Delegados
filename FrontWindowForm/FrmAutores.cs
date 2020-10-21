@@ -12,13 +12,18 @@ namespace FrontWindowForm
 {
     public partial class FrmAutores : Form
     {
+        FrmAutor formulario = null;
         public FrmAutores()
         {
             InitializeComponent();
             TraerAutores("");//Esto en un principio me Trae toda la tabla
 
             //Sucribimos el evento => DELEGADO
-            txtFiltro.TextChanged += txtFiltro_TextChanged;
+            txtFiltro.TextChanged += txtFiltro_TextChanged;//Estamos Filtandro por Apellido y Nombre
+
+
+            //Creamos un Double click que nos abra de la fila seleccionada y nos traiga toda la data
+            dgvAutores.DoubleClick += dgvAutores_DoubleClick;
         }
         //Este nuestro Front y podes usar Las clases de Logica que traen mediante su context la data
         //public void TraerAutores()
@@ -40,6 +45,33 @@ namespace FrontWindowForm
         {
             LogicaBI.Autor bi = new LogicaBI.Autor();
             dgvAutores.DataSource= bi.TraerTodos(Letra);
+        }
+
+        private void dgvAutores_DoubleClick(object sender, EventArgs e)
+        {
+            //El frmAutor RECIBE UN tipo AUTOR con lo cual creamos un objeto del mismo y lo llenamos
+            //con la data de las filas clickeada
+            Modelo.Autor data = new Modelo.Autor();
+            data.ID =  Convert.ToInt32(  dgvAutores.CurrentRow.Cells["ID"].Value );
+            data.Apellido = dgvAutores.CurrentRow.Cells["Apellido"].Value.ToString();
+            data.Nombre = dgvAutores.CurrentRow.Cells["Nombre"].Value.ToString();
+
+            
+            if (formulario == null)
+            {
+                //Enviamos este objeto creado al Nuevo Formulario
+                formulario = new FrmAutor(data);
+                //Podemos Setiar la ubicacion, en este caso Centrada
+                formulario.StartPosition = FormStartPosition.CenterScreen;
+                //Mostramos el objeto del Formulario
+
+                formulario.FormClosed += (o, args) => formulario = null; 
+            }
+
+            
+
+            formulario.Show();//Lo muestro
+            formulario.BringToFront();    //Lo traigo al Frente
         }
     }
 }

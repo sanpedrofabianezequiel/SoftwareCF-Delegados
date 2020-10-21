@@ -22,3 +22,4 @@ C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\obj\Debug\Front
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\obj\Debug\FrontWindowForm.pdb
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontWindowForm\obj\Debug\FrontWindowForm.FrmAutor.resources

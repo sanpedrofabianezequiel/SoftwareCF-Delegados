@@ -60,7 +60,7 @@ namespace Datos
             //Buscando por Linq
             //Creamos este mismo metodo en la capa de BI para que puedan acceder todos los FRONTEND
             var lista = from x in _context.Autores
-                        where x.Apellido.Contains(Letras)
+                        where x.Apellido.Contains(Letras) || x.Nombre.Contains(Letras)
                         select x;
 
             return lista.ToList();

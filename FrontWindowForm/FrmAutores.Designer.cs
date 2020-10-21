@@ -40,6 +40,7 @@
             this.dgvAutores.Name = "dgvAutores";
             this.dgvAutores.Size = new System.Drawing.Size(354, 410);
             this.dgvAutores.TabIndex = 0;
+            this.dgvAutores.DoubleClick += new System.EventHandler(this.dgvAutores_DoubleClick);
             // 
             // txtFiltro
             // 
