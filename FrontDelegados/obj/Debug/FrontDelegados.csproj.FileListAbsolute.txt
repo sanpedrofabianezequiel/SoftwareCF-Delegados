@@ -5,3 +5,8 @@ C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\obj\Debug\FrontD
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\obj\Debug\FrontDelegados.exe
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\obj\Debug\FrontDelegados.pdb
 C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\obj\Debug\FrontDelegados.csprojAssemblyReference.cache
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\bin\Debug\EntityFramework.dll
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\bin\Debug\EntityFramework.xml
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sanpe\source\repos\SoftwareCF-Delegados\FrontDelegados\obj\Debug\FrontDelegados.csproj.CopyComplete
