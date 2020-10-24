@@ -72,6 +72,12 @@ namespace FrontWindowForm
 
             formulario.Show();//Lo muestro
             formulario.BringToFront();    //Lo traigo al Frente
+
+            //Cuando vuelve del Form Edicion de Autor
+            //Actualizo asi que llamo al metodo que me trae todos los datos
+            LogicaBI.Autor bi = new LogicaBI.Autor();
+            bi.TraerTodos();
         }
+
     }
 }

@@ -72,7 +72,7 @@ namespace Datos
         public void Borrar(int id)
         {
 
-            _context.Autores.Remove( _context.Autores.Find(  id  ));
+            _context.Autores.Remove( (Modelo.Autor)  _context.Autores.Find(  id  ) );
             _context.SaveChanges();
 
         }

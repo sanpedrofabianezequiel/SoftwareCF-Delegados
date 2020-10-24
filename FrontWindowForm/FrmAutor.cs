@@ -22,7 +22,8 @@ namespace FrontWindowForm
 
             //Delegamos el boton Confirmar
             btnConfirmar.Click += btnConfirmar_Click;
-
+            btnBorrar.Click += btnConfirmar_Click;
+           // btnBorrar.Click += btnBorrar_Click;
         }
 
         private void btnConfirmar_Click(object sender, EventArgs e)
@@ -35,7 +36,36 @@ namespace FrontWindowForm
             obj.Apellido = txtApellido.Text.ToString();
 
 
-            bi.Modificar(obj);
+            #region Misma Funcionalidad para Eliminar un Autor
+            //Castiamos el SENDER para determinar que nos enviaron 
+            if (sender !=  null)
+            {
+                if (sender is Button)
+                {
+                    if (sender.GetType() == typeof(Button))
+                    {
+                        //Castiamos
+                        Button boton = sender as Button;
+                        //Determinamos el id o Name del boton que viene como en JAVA
+                        switch (boton.Name)
+                        {
+                            case "btnConfirmar":
+                                bi.Modificar(obj);
+                                break;
+                            case "btnBorrar":
+                                bi.Borrar(obj.ID);
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
+              
+            }
+
+            #endregion
+
+           
 
             MessageBox.Show("Datos Modificados");
             
@@ -45,5 +75,14 @@ namespace FrontWindowForm
         {
             Close();
         }
+
+        //private void btnBorrar_Click(object sender, EventArgs e)
+        //{
+        //    LogicaBI.Autor bi = new LogicaBI.Autor();
+        //    //Neceistmos Suscribir a los eventos/delegados en el load
+        //    Modelo.Autor obj = new Modelo.Autor();
+        //    bi.Borrar(obj.ID);
+        //    //OTRA FORMA SERIA CON EL SENDER casteandolo para solo hacer un metodo Click
+        //}
     }
 }

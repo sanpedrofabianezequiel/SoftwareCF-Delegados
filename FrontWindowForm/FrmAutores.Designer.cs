@@ -62,6 +62,7 @@
             this.Controls.Add(this.dgvAutores);
             this.Name = "FrmAutores";
             this.Text = "FrmAutores";
+
             ((System.ComponentModel.ISupportInitialize)(this.dgvAutores)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
